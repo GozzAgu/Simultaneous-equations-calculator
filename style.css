@@ -1,0 +1,66 @@
+* {
+    font-family: 'Ubuntu';
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(./marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+}
+
+.body {
+    background-color: rgba(204, 255, 255, 0.701);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.control {
+    width: 60px;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.cont {
+    padding: 20px;
+    text-align: center;
+}
+
+#calculate {
+    background-color:rgb(75, 164, 164);
+    color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+@media (min-width: 625px) and (max-width: 900px){
+    .body {
+        background-color: rgba(204, 255, 255, 0.701);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1400px){
+    .body {
+        background-color: rgba(204, 255, 255, 0.701);
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+@media (min-width: 1401px) and (max-width: 1900px){
+    .body {
+        background-color: rgba(204, 255, 255, 0.701);
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
